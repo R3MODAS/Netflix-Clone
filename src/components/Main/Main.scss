@@ -1,0 +1,463 @@
+.main-section {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+
+     .img-section>img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 720px;
+          width: 100%;
+          object-fit: cover;
+     }
+
+     .img-section>.img-gradient {
+          background: rgba(0, 0, 0, .4);
+          background-image: linear-gradient(0deg, rgba(0, 0, 0, .8) 0, transparent 60%, rgba(0, 0, 0, .8));
+          position: absolute;
+          top: 0;
+          left: 0;
+          inset: 0;
+          height: 720px;
+     }
+
+     .text-section {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          gap: 1.5rem;
+          text-align: center;
+          max-width: 800px;
+          width: 100%;
+          padding: 75px;
+          margin-top: 50px;
+          color: #fff;
+
+          >h1 {
+               font-size: 6.4rem;
+               font-weight: 600;
+               text-align: center;
+          }
+
+          span {
+               font-size: 2.5rem;
+          }
+
+          div {
+               font-size: 1.8rem;
+          }
+
+          .form {
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               margin-top: 10px;
+
+               input {
+                    width: 500px;
+                    font-size: 1.5rem;
+                    height: 6rem;
+                    padding: 10px 10px;
+                    border: none;
+                    outline: none;
+               }
+
+               button {
+                    white-space: nowrap;
+                    height: 6rem;
+                    border: none;
+                    padding: 0 20px;
+                    background-color: #E50914;
+                    color: #fff;
+                    font-size: 1.6rem;
+                    display: flex;
+                    align-items: center;
+                    cursor: pointer;
+               }
+          }
+     }
+}
+
+// Promo Sections
+
+.promo__section {
+     position: relative;
+     top: 90px;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 8rem;
+     color: #fff;
+     background-color: #000;
+     height: 500px;
+     border-top: 8px solid #222;
+
+
+     .text__content {
+          width: 30%;
+
+          >h2 {
+               font-size: 5rem;
+               margin-bottom: 10px;
+          }
+
+          >p {
+               font-size: 2.4rem;
+               font-weight: 400;
+          }
+     }
+
+     .img_video__content {
+          display: flex;
+          align-items: center;
+          position: relative;
+
+          .img-overlay {
+               >img {
+                    width: 500px;
+                    position: relative;
+                    z-index: 2;
+                    max-width: 100%;
+               }
+          }
+
+          .video-overlay {
+               >video {
+                    position: absolute;
+                    right: 70px;
+                    bottom: 96px;
+                    width: 73%;
+               }
+          }
+     }
+}
+
+
+
+.promo__section2 {
+     position: relative;
+     top: 90px;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 8rem;
+     color: #fff;
+     background-color: #000;
+     height: 600px;
+     border-top: 8px solid #222;
+
+     .img__content {
+          .img-overlay {
+
+               >img {
+                    width: 500px;
+                    max-width: 100%;
+               }
+
+               .img-card {
+                    display: flex;
+                    margin: 0 auto;
+                    justify-content: space-between;
+                    align-items: center;
+                    background-color: #000;
+                    box-shadow: 0 0 2em 0 #000;
+                    width: 60%;
+                    border: 2px solid hsla(0, 0%, 100%, .25);
+                    padding: 5px;
+                    border-radius: 10px;
+                    min-width: 20rem;
+
+                    img {
+                         width: 45px;
+                    }
+
+                    .img-card-text {
+                         text-align: left;
+
+                         div {
+                              font-size: 1.6rem;
+                              font-weight: 500;
+                         }
+
+                         span {
+                              color: #0071eb;
+                              font-size: 1.3rem;
+                              font-weight: 400;
+                         }
+                    }
+
+                    .download-animation {
+                         background: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif") 50% no-repeat;
+                         background-size: 100%;
+                         display: block;
+                         content: "";
+                         outline: 2px solid #000;
+                         width: 4rem;
+                         height: 5rem;
+                    }
+               }
+          }
+     }
+
+     .text__content {
+          width: 30%;
+
+          >h2 {
+               font-size: 5rem;
+               margin-bottom: 10px;
+          }
+
+          >p {
+               font-size: 2.4rem;
+               font-weight: 400;
+          }
+     }
+
+}
+
+
+
+.promo__section3 {
+     position: relative;
+     top: 90px;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 8rem;
+     color: #fff;
+     background-color: #000;
+     height: 500px;
+     border-top: 8px solid #222;
+
+
+     .text__content {
+          width: 30%;
+
+          >h2 {
+               font-size: 5rem;
+               margin-bottom: 10px;
+          }
+
+          >p {
+               font-size: 2.4rem;
+               font-weight: 400;
+          }
+     }
+
+     .img_video__content {
+          display: flex;
+          align-items: center;
+          position: relative;
+
+          .img-overlay {
+               >img {
+                    width: 550px;
+                    position: relative;
+                    z-index: 2;
+                    max-width: 100%;
+               }
+          }
+
+          .video-overlay {
+               >video {
+                    position: absolute;
+                    right: 125px;
+                    bottom: 200px;
+                    width: 58%;
+               }
+          }
+     }
+}
+
+
+.promo__section4 {
+     position: relative;
+     top: 90px;
+     text-align: center;
+     display: flex;
+     gap: 8rem;
+     justify-content: center;
+     align-items: center;
+     color: #fff;
+     background-color: #000;
+     height: 500px;
+     border-top: 8px solid #222;
+
+     .img__content {
+          >img {
+               width: 500px;
+               position: relative;
+               z-index: 2;
+               max-width: 100%;
+          }
+     }
+
+     .text__content {
+          width: 30%;
+
+          >h2 {
+               font-size: 5rem;
+               margin-bottom: 10px;
+          }
+
+          >p {
+               font-size: 2.4rem;
+               font-weight: 400;
+          }
+     }
+
+}
+
+@media screen and (max-width : 980px) {
+
+     .main-section .text-section {
+          gap: 1.5rem;
+          padding: 30px;
+     }
+
+     .main-section .text-section>h1 {
+          font-size: 5rem;
+     }
+
+     .main-section .text-section .form {
+          flex-direction: column;
+          gap: 2rem;
+     }
+
+     .main-section .text-section .form input {
+          height: 4.5rem;
+     }
+
+     .main-section .text-section .form button {
+          height: 4.5rem;
+     }
+
+     .promo__section,
+     .promo__section1,
+     .promo__section2,
+     .promo__section3,
+     .promo__section4 {
+          flex-direction: column;
+          height: 900px;
+          gap: 4rem;
+
+          .text__content {
+               width: 80%;
+          }
+     }
+}
+
+@media screen and (max-width : 650px) {
+     .promo__section {
+          gap: 1rem;
+     }
+
+     .promo__section .text__content>h2,
+     .promo__section2 .text__content>h2,
+     .promo__section3 .text__content>h2,
+     .promo__section4 .text__content>h2 {
+          font-size: 3rem;
+     }
+
+     .promo__section .text__content>p,
+     .promo__section2 .text__content>p,
+     .promo__section3 .text__content>p,
+     .promo__section4 .text__content>p {
+          font-size: 1.7rem;
+     }
+}
+
+
+
+@media screen and (max-width : 580px) {
+
+     .promo__section,
+     .promo__section1,
+     .promo__section3,
+     .promo__section4 {
+          flex-direction: column;
+          height: 700px;
+          gap: 4rem;
+     }
+
+     .main-section .text-section .form input {
+          width: 400px;
+          font-size: 1.5rem;
+          height: 4rem;
+          padding: 10px 10px;
+          border: none;
+          outline: none;
+     }
+
+     .main-section .text-section>h1 {
+          font-size: 3rem;
+     }
+
+     .main-section .text-section .form input {
+          width: 300px;
+          font-size: 1.5rem;
+          height: 4rem;
+          padding: 10px 10px;
+          border: none;
+          outline: none;
+     }
+
+     .main-section .text-section .form button {
+          height: 4rem;
+          padding: 0 10px;
+     }
+
+     .promo__section .img_video__content .img-overlay>img {
+          width: 400px;
+          position: relative;
+          z-index: 2;
+     }
+
+     .promo__section .img_video__content .video-overlay>video {
+          position: absolute;
+          right: 55px;
+          bottom: 76px;
+          width: 73%;
+     }
+
+     .promo__section2 .img__content .img-overlay>img {
+          width: 600px;
+     }
+
+     .promo__section3 .img_video__content .img-overlay>img {
+          width: 450px;
+     }
+
+     .promo__section3 .img_video__content .video-overlay>video {
+          position: absolute;
+          right: 90px;
+          bottom: 160px;
+          width: 61%;
+     }
+
+     .promo__section4 .img__content>img {
+          width: 400px;
+          position: relative;
+          z-index: 2;
+     }
+
+}
+
+@media screen and (max-width : 460px) {
+     .promo__section3 .img_video__content .img-overlay>img {
+          width: 350px;
+     }
+
+     .promo__section3 .img_video__content .video-overlay>video {
+          right: 69px;
+          bottom: 130px;
+          width: 61%;
+     }
+}
+
+// .faq{}

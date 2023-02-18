@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+}
+
+html {
+     font-size: 62.5%;
+     scroll-behavior: smooth;
+}
+
+ul {
+     list-style: none;
+}
+
+a {
+     text-decoration: none;
+}
+
+::selection{
+     color: #000;
+     background-color: #fff;
+}
+
+// Navbar
+.header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: transparent;
+     height: 100px;
+     padding: 0 5.7rem;
+     position: relative;
+     z-index: 9999;
+
+     >svg {
+          height: 45%;
+          fill: #e50914;
+     }
+
+     .right__section {
+          position: relative;
+          display: flex;
+          align-items: center;
+
+          >select {
+               background-color: transparent;
+               color: #fff;
+               padding: 8px 3px 8px 22px;
+               margin-right: 30px;
+               border: 1px solid #fff;
+               border-radius: 3px;
+               font-weight: 400;
+               font-family: inherit;
+               font-size: 1.4rem;
+
+               option {
+                    background-color: grey;
+                    font-family: inherit;
+               }
+          }
+
+          .globe {
+               color: #fff;
+               position: absolute;
+               top: 11px;
+               left: 9px;
+               font-size: 1.4rem;
+          }
+
+          a {
+               color: #fff;
+               font-size: 1.6rem;
+               background-color: #e50914;
+               padding: 8px 18px;
+               border-radius: 3px;
+               font-weight: 400;
+          }
+
+
+     }
+}
+
+@media screen and (max-width : 580px) {
+
+     .header {
+          padding: 0 3rem;
+     }
+
+     .header>svg {
+          height: 30%;
+     }
+
+     .header .right__section>select {
+          margin-right: 10px;
+     }
+
+}
+
+@media screen and (max-width : 460px) {
+     .header {
+          padding: 0 2rem;
+     }
+
+     .header>svg {
+          height: 23%;
+     }
+
+     .header .right__section .globe {
+          top: 9px;
+      }
+
+     .header .right__section>select {
+          font-size: 1.1rem;
+     }
+
+     .header .right__section a {
+          font-size: 1.4rem;
+          padding: 8px 10px;
+      }
+
+}
